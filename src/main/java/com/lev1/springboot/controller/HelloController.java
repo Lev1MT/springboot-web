@@ -1,4 +1,4 @@
-package com.lev1.web.controller;
+package com.lev1.springboot.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

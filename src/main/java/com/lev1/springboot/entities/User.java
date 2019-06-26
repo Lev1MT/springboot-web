@@ -1,9 +1,18 @@
-package com.lev1.web.entity;
+package com.lev1.springboot.entities;
 
 public class User {
+    private Integer id;
     private String name;
     private String pwd;
     private String email;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;
